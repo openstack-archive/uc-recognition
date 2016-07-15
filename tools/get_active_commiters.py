@@ -146,7 +146,10 @@ def main():
                 'openstack/osops-tools-generic',
                 'openstack/osops-example-configs',
                 'openstack/osops-tools-logging',
-                'openstack/osops-tools-contrib']
+                'openstack/osops-tools-contrib',
+                'openstack/openstack-user-stories',
+                'openstack/uc-recognition',
+                'openstack/osops-coda']
 
     for repo in projects:
         output = '%s.csv' % repo.split('/')[-1]
